@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: const Text(
             'Luis Herrera 22308051281207',
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontFamily: 'Roboto',
               fontWeight: FontWeight.w500,
             ),
@@ -105,7 +105,7 @@ class MyApp extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
-                child: const SizedBox.shrink(),
+                child: const Text('Cancelar'),
               ),
               ElevatedButton(
                 onPressed: () {},
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
-                child: const SizedBox.shrink(),
+                child: const Text('Guardar'),
               ),
               ElevatedButton(
                 onPressed: () {},
@@ -125,7 +125,7 @@ class MyApp extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
-                child: const SizedBox.shrink(),
+                child: const Text('Detalles'),
               ),
               ElevatedButton(
                 onPressed: () {},
@@ -135,7 +135,7 @@ class MyApp extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
-                child: const SizedBox.shrink(),
+                child: const Text('Config.'),
               ),
             ],
           ),
